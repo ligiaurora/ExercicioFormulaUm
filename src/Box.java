@@ -1,5 +1,5 @@
 public class Box implements Runnable {
-    private Carro carro;
+    private final Carro carro;
 
     public Box(Carro carro) {
         this.carro = carro;
