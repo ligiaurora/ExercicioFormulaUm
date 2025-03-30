@@ -31,7 +31,7 @@ public class Box implements Runnable {
     }
 
     private void penalidade() {
-        System.out.println(carro.getNome() + " foi penalizado por ultrapassar o limite acima de 60km ao entrar no box");
+        System.out.println(carro.getNome() + " foi penalizado por ultrapassar o limite acima de 60km");
     }
 
     private void pausa(int ms) {
